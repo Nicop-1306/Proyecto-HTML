@@ -1,0 +1,31 @@
+body{
+    margin-top: 50px;
+}
+.Titulo-Principal{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 45%;
+}
+h2{
+    margin-left: 35%;
+}
+p{
+    font-size: 130%;
+    margin-left: 0.5%;
+}
+.Logo{
+    margin-left: 35%;
+    width: 30%;
+    height: auto;
+}
+img{
+    width: 400px;
+    height: 420px;
+    margin-left: 10%;
+}
+.navbar {
+    position: fixed; /* Mantiene la barra de navegación en una posición fija */
+    top: 0; /* Se fija a la parte superior de la ventana */
+    left: 0; /* Se fija al borde izquierdo de la ventana */
+    width: 100%; /* Asegura que la barra ocupe todo el ancho de la ventana */
+    z-index: 1000; /* Asegura que la barra esté por encima de otros contenidos */
+}
