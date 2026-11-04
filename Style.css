@@ -6,7 +6,7 @@ body{
     margin-left: 45%;
 }
 h2{
-    margin-left: 35%;
+    margin-left: 0.5%;
 }
 p{
     font-size: 130%;
@@ -21,6 +21,26 @@ img{
     width: 400px;
     height: 420px;
     margin-left: 10%;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
+}
+.producto{
+    flex: 1 1 400px;
+    max-width: 500px;
+}
+.producto p{
+    margin-left: 0;
+}
+.producto img{
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: contain;
+    margin: 0 0 16px;
 }
 .navbar {
     position: fixed; /* Mantiene la barra de navegación en una posición fija */
